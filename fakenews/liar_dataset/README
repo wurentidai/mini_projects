@@ -1,0 +1,21 @@
+UCSB S17 292F HW2
+Fake News Challenge
+=====================================================================
+Description of the train and validation TSV format:
+
+Column 1: the label.
+Column 2: the statement.
+Column 3: the subject(s).
+Column 4: the speaker.
+Column 5: the speaker's job title.
+Column 6: the state info.
+Column 7: the party affiliation.
+Column 8: the context (venue / location of the speech or statement).
+
+Note that the test tsv file does not include the column 1 (label),
+and your are suppose to generate the predictions on this test set.
+
+predictions.txt: an example of the predictions file that you need to generate.
+It's just for your reference.
+
+William Wang, william@cs.ucsb.edu
